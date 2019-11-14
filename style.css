@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://www.cityofkeywest-fl.gov/egov/images/1562686823_73401_o.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.logo {
+   float: left;
+   color: #fff;
+   padding-top: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px 10px;
+    margin-left: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: all ease-in-out 0.6s;
+}
+
+.active {
+    color: #000;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 25px;
+}
+
+.title h1 {
+    color: #fff;
+}
+
+.button {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    padding: 5px 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    transition: all ease-in-out 0.6s;
+    margin-left: 7px;
+}
+
+.button a:hover {
+    color: #000;
+    background: #fff;
+}
